@@ -1,0 +1,9 @@
+{
+  "weather_url": "https://uapis.cn/api/v1/misc/weather?city=北京大兴&forecast=true&indices=true&lang=zh",
+  "api_token": "YOUR_UAPIS_TOKEN",
+  "task_file": "D:\\path\\to\\QuickCapture.md",
+  "asset_image": "nailong.png.jpg",
+  "esp_ip": "192.168.3.62",
+  "pc_ip": "192.168.3.15",
+  "server_port": 8080
+}

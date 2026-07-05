@@ -1,0 +1,18 @@
+# Build/cache
+.pio/
+__pycache__/
+*.py[cod]
+
+# Local secrets/config
+config.json
+src/config.h
+
+# Runtime logs
+refresh_log.txt
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
