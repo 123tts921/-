@@ -184,6 +184,13 @@ Windows 桌面可以创建一个 `.bat` 调用 `refresh.py`，实现双击刷新
 | 刷新后长期离线 | 电池/升压模块瞬时电流不足 | 用充电宝/稳定 5V，或加 470uF~1000uF 电容 |
 | 屏幕全黑/花屏 | 图像格式、屏幕型号或引脚不匹配 | 检查 `EPD_W`、`EPD_H`、颜色编码和接线 |
 
+## 致谢
+
+本项目在架构思路和实现过程中参考了开源项目 InkSight / 墨鱼 AI 墨水屏。感谢原项目作者和社区的开源分享，让 ESP32 + 墨水屏这类桌面信息显示项目更容易学习、复刻和二次开发。
+
+- InkSight GitHub：<https://github.com/datascale-ai/inksight>
+- InkSight 官网：<https://www.inksight.site/zh>
+
 ## 安全说明
 
 公开仓库不要提交：
