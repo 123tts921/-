@@ -6,7 +6,7 @@ InkSight 一键刷新工具
 4. 等待 ESP32 完成刷新
 5. 关闭 server.py
 """
-import sys, os, subprocess, time, requests, traceback, socket
+import sys, os, subprocess, time, requests, traceback, socket, json
 
 LOG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "refresh_log.txt")
 
